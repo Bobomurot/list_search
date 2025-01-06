@@ -1,90 +1,90 @@
-# Welcome
+# Xush kelibsiz
 # list_search
 
-Automated grading of homework assignments and tests
-- fork this repository
-- solve the task
-- commit with proper message
+Uy vazifalari va testlarni avtomatlashtirilgan baholash
+- ushbu repozitoriyani fork qiling
+- vazifani bajaring
+- to'g'ri xabar bilan commit qiling
 
-# Problems
+# Masalalar
 ## find01_max
 
-  Given the list of numbers, return the maximum number in the list.
+  Berilgan sonlar ro'yxati bo'yicha ro'yxatdagi eng katta sonni qaytaring.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 2, 3, 4, 5]
 Output: 5
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: list1 = [12, 2, 5, 2, 7, 9, 1]
 Output: 12
 
 ```
-**Constraints:**
+**Cheklovlar:**
 
   - 2 <= length(list1) <= 10^5
 
 ## find02_max_count
 
-  Given the list of numbers, Find count of maximum numbers in the list.
+  Berilgan sonlar ro'yxatida eng katta son necha marta uchraganligini aniqlang.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 8, 3, 8, 5]
 Output: 2
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: [13, 8, 3, 4, 9]
 Output: 1
 
 ```
-**Constraints:**
+**Cheklovlar:**
 
   - 2 <= length(list1) <= 10^5
 
 ## find03_max_min_sum
 
-  Given the list of numbers, return the sum of the maximum and minimum numbers in the list.
+  Berilgan sonlar ro'yxati bo'yicha eng katta va eng kichik sonlarning yig'indisini qaytaring.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 2, 3, 4, 5]
 Output: 6
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: [2, 7, 3, 4, 9]
 Output: 11
 
 ```
-**Constraints:**
+**Cheklovlar:**
 
   - 2 <= length(list1) <= 10^5
 
 ## find04_max_index
 
-  Given the list of numbers, return the index of maximum number in the list
+  Berilgan sonlar ro'yxati bo'yicha eng katta sonning indeksini qaytaring.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 2, 3, 4, 5]
 Output: 4
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: [6, 8, 7, 4, 0]
@@ -94,154 +94,155 @@ Output: 1
 
 ## find05_max_even
 
-  Given the list of numbers, Find the maximum even number in the list
+  Berilgan sonlar ro'yxati bo'yicha eng katta juft sonni toping.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 4, 3, 8, 5]
 Output: 8
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: [7, 6, 3, 4, 9]
 Output: 6
 
 ```
-**Constraints:**
+**Cheklovlar:**
 
   - 2 <= length(list1) <= 10^5
 
 ## find06_max_odd
 
-  Given the list of numbers, Find the maximum odd number in the list if there is no odd number return -1.
+  Berilgan sonlar ro'yxati bo'yicha eng katta toq sonni toping, agar toq son mavjud bo'lmasa, -1 qaytaring.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 8, 3, 8, 5]
 Output: 5
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: [11, 7, 5, 4, 9]
 Output: 11
 
 ```
-**Constraints:**
+**Cheklovlar:**
 
   - 2 <= length(list1) <= 10^5
 
 ## find07_min
 
-  Given the list of numbers, return the minimum number in the list.
+  Berilgan sonlar ro'yxati bo'yicha ro'yxatdagi eng kichik sonni qaytaring.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 2, -3, 4, 5]
 Output: -3
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: list1 = [15, 23, 3, 9, 1, 4]
 Output: 1
 
 ```
-**Constraints:**
+**Cheklovlar:**
 
   - 2 <= length(list1) <= 10^5
 
 ## find08_min_count
 
-  Given the list of numbers, Find count of minimum numbers in the list.
+  Berilgan sonlar ro'yxatida eng kichik son necha marta uchraganligini aniqlang.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 8, 3, 8, 5]
 Output: 1
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: list1 = [0, -4, 3, 9, -2, -4]
 Output: 2
 
 ```
-**Constraints:**
+**Cheklovlar:**
 
   - 2 <= length(list1) <= 10^5
 
 ## find09_min_index
 
-  Given the list of numbers, return the index of minimum number in the list.
+  Berilgan sonlar ro'yxati bo'yicha eng kichik sonning indeksini qaytaring.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 2, -3, 4, 5]
 Output: 2
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: list1 = [12, 2, 5, 2, 7, 9, 1]
 Output: 6
 
 ```
+
 ## find10_min_even
 
-  Given the list of numbers, Find the minimum even number in the list.
+  Berilgan sonlar ro'yxati bo'yicha eng kichik juft sonni toping.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 8, 2, 8, 5]
 Output: 2
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: list1 = [7, 8, 4, 3, 5]
 Output: 4
 
 ```
-**Constraints:**
+**Cheklovlar:**
 
   - 2 <= length(list1) <= 10^5
 
 ## find11_min_odd
 
-  Given the list of numbers, Find the minimum odd number in the list.
+  Berilgan sonlar ro'yxati bo'yicha eng kichik toq sonni toping.
 
-**Example 1:**
+**1-misol:**
 
 ```Python
 Input: [1, 8, 2, 8, 5]
 Output: 1
 
 ```
-**Example 2:**
+**2-misol:**
 
 ```Python
 Input: list1 = [7, 8, 4, 3, 5]
 Output: 3
 
 ```
-**Constraints:**
+**Cheklovlar:**
 
   - 2 <= length(list1) <= 10^5
 
-# Warning
-- don't copy other solutions or any solution
-- don't remove comments
+# Ogohlantirish
+- boshqa echimlarni yoki biror echimni nusxalamang
+- sharhlarni olib tashlamang
